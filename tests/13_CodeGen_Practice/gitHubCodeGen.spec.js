@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test('test', async ({ page }) => {
   await page.goto('https://github.com/login');
   await page.getByRole('textbox', { name: 'Username or email address' }).fill('skdharmavaram');
-  await page.getByRole('textbox', { name: 'Password' }).fill('Bharth@18112025');
+  await page.getByRole('textbox', { name: 'Password' }).fill('sk...');
   await page.getByRole('button', { name: 'Sign in', exact: true }).click();
   await page.getByRole('link', { name: 'Repositories' }).click();
   await page.getByRole('link', { name: 'My repositories' }).click();
