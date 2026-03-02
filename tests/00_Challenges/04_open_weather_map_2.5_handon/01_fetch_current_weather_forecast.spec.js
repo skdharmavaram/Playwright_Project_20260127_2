@@ -34,3 +34,5 @@ test('[Open Weather Map] Fetch current weather data for specific location', asyn
     
 
 });
+
+// run in terminal with: npx playwright test tests/00_Challenges/04_open_weather_map_2.5_handon/01_fetch_current_weather_forecast.spec.js --headed
